@@ -52,7 +52,7 @@ div button {
     
     padding-left:15px;
       padding-right: 15px;
-      
+      cursor: pointer;
 }
 .About {
     
@@ -78,6 +78,7 @@ margin-top: 20px;
     color: white;
     padding-left:15px;
       padding-right: 15px;
+      cursor:pointer;
 }
 
 
