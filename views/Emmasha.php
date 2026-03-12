@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-        <style>
-            
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Personal page</title>
+        <style> 
+        
 
-    nav{
+    header{
         background:#2c4da7;
 display:flex;
 justify-content:flex-start;
@@ -13,7 +15,8 @@ align-items:center;
 
 }
 
-    nav span{
+
+    header span{
         color: white;
 margin-left:20px;
 cursor:pointer;
@@ -26,6 +29,7 @@ color: white;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    
 }
 
 .Name img{
@@ -63,33 +67,33 @@ margin-top: 20px;
 .merge {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
-    margin: 10px;
+    gap: 20px;
+    margin: 20px;
 }
-
 .About button {
      background-color: green;
     border: none;
     border-radius: 5px;
     padding: 10px;
-    
+    color: white;
     padding-left:15px;
       padding-right: 15px;
 }
 
+
             </style>
             </head>
             <body>
-            
-                <nav>
+             
+                <header>
+
                 <h2 style="color: white;"> KETUANZE EMMASHA NEMBUANYI </h2>
-                
                     <div>
                        <span>Home</span>
                        <span>About</span>
                        <span>Projects</span>
 </div>
-</nav>
+</header>
 
 <div class="Name">
 <div>
@@ -99,7 +103,9 @@ margin-top: 20px;
 I'm a passionate software engineering student at the University of Buea
 focusing on web development and plugin creation.
 </p>
-<button>Contact Me</button>
+<a href="tel:+237673698317">
+  <button>Contact Me</button>
+</a>
 </div>
 <img src="<?php echo plugin_dir_url(__FILE__); ?>images/jeff.png" alt="Kent Image" >
 </div>
@@ -133,9 +139,9 @@ ideas into functional and creative projects.</p>
 
     <h2> Contact </h2>
    <strong> Email</strong>: Ketuanzee@gmail.com <br>
-   <p><strong> Location </strong>: Buea, Cameroon </P>
-   <button>Email</button>
-   <button>Whatsapp</button>
+   <p><strong> Location </strong>: Buea, Cameroon </p>
+   <a href="mailto:Ketuanzee@gmail.com"><button>Email</button></a>
+<a href="https://wa.me/237673698317"><button>Whatsapp</button></a>
    
 </div>
 </div>
